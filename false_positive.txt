@@ -1,0 +1,10 @@
+commit a14363faad2e36e1289716637eacc9987564257e
+Author: Marcin Zajaczkowski <szpak@users.sourceforge.net>
+Date:   Mon Nov 25 23:24:45 2013 +0100
+    APF-1231: workaround for wrong package rename in archetype
++/**
++ * CountryService implementation based on Locale.getAvailableLocales() from JDK.
++ * Based on CountryTag implementation by Matt Raible.
++ * TODO: MZA: Add caching with @Cacheable annotation from Spring
++ * @author Marcin Zajączkowski, 2013-11-18
++ */
